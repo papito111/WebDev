@@ -26,7 +26,7 @@ export default function HomePage() {
               {post.content.substring(0, 60)}...
             </p>
             <Link href={`/posts/${post.id}`} className="text-blue-500 mt-4 block hover:underline">
-              Czytaj więcej
+              Czytaj więcej 
             </Link>
           </div>
         ))}
